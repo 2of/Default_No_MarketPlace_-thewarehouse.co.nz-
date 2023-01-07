@@ -1,0 +1,20 @@
+ /* * { 
+    outline: 2px solid red;
+    /* transform: rotate(39deg); */
+ } */
+
+ .refinement-header { 
+    background-color: red;
+ }
+
+ #refinement-vendor-type { 
+
+    /* display: none; */
+    /* text-decoration: underline; */
+ }
+
+
+
+ #refinement-vendor-type::before { 
+    content: "You are using THEWAREHOUSE-MARKET-Blocker Extension";
+ }

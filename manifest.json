@@ -1,0 +1,33 @@
+{
+  "name": "No More MarketPlace ",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Search Results on TheWarehouse.co.nz will not show marketplace items by default",
+  "host_permissions" : ["https://*.thewarehouse.co.nz/*"],
+  "content_scripts": [
+    {
+        "matches": ["https://*.thewarehouse.co.nz/*"],
+        "css": ["./styles.css"]
+    }
+],
+  "icons" : { 
+  "16" : "/images/16.png",
+  "32" : "/images/32.png"
+  },
+
+  "declarative_net_request" : {
+    "rule_resources" : [
+    {
+      "id": "ruleset_2",
+      "enabled": true,
+      "path": "rules_2.json"
+    }
+  ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "*://thewarehouse.co.nz/*"
+  ]
+
+  }
