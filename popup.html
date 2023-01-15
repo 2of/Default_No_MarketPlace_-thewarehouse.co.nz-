@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMM Popup Menu</title>
+    <link rel="icon" type="image/x-icon" href="/icons/icon16.png"/>
+</head>
+<body>
+
+    <h2 class="title_hero">
+        No More MarketPlace v1.1
+    </h2>
+
+   
+    <p>Configure default search filters for thewarehouse.co.nz</p>
+    <div class="selectcell">
+        <input type="checkbox" id="local_sellers_only" name="scales" checked>
+        <label for="scales">Hide 3rd Party Sellers</label>
+      </div>
+
+      <div class="selectcell">
+        <input type="checkbox" id="online_items_only" name="scales" checked>
+        <label for="scales">Hide Online Only Items</label>
+      </div>
+      <div class="selectcell">
+        <input type="checkbox" id="show_all_results"  disabled="disabled" name="scales" checked>
+        <label for="scales">Show All Results (May cause Long Load)</label>
+      </div>
+
+
+      <div class="selectcell">
+        <input type="checkbox" id="hide_props"  disabled="disabled" name="scales">
+        <label for="scales">Disable Market Orders Propaganda</label>
+      </div>
+
+
+      <p>You can always overwrite these by changing the filters on the results page</p>
+      <p>Changes are applied on new searches </p>
+      <br/>
+     <span> <a href="https://github.com/2of/NoTheWarehouseMarketPlace_NZ_Chrome">source</a> <p> -Noah</p></span>
+
+
+</body>
+ 
+
+<style>
+    body { 
+        min-width: 300px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .title_hero { 
+        background: rgb(238,174,176);
+background: linear-gradient(99deg, rgba(238,174,176,1) 0%, rgba(206,56,38,1) 31%);
+        color: white;
+        margin: 0;
+        padding: 40px;
+        border-radius: 4px;
+
+    }
+    .selectcell { 
+        text-overflow: clip;
+        
+
+    }
+</style>
+
+<script src="popup.js"></script>
+</html>
