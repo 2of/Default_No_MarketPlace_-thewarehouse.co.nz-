@@ -9,3 +9,8 @@ Overcomes limitations where thewarehouse.co.nz does not cache user-filters when 
 
 Now Includes a gui!
 ![Banner](https://github.com/2of/NoTheWarehouseMarketPlace_NZ_Chrome/blob/main/aboutimage.png)
+
+
+
+### Note 
+thewarehousgroup seem to be removing listings now anyway so the extensions' functionality is no longer required
