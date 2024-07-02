@@ -1,5 +1,5 @@
 # No More MarketPlace for Chrome!
-Default away those pesky MarketPlace and Online-Only Listings from thewarehouse.co.nz and 
+Default away those pesky MarketPlace and Online-Only Listings from thewarehouse.co.nz 
 
 Download [Here](https://chromewebstore.google.com/detail/no-more-marketplace/febnmhgkigdhepahofkknlfhbegkplcb?authuser=0&hl=en&pli=1)
 
