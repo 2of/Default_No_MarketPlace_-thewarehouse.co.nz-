@@ -1,10 +1,5 @@
 /*
     - There is probably a quicker regex way to do this, cut and dry quick.
-
-
-
-
-
 */
 
 const rules = {
@@ -170,6 +165,7 @@ const do_rule_load = async () => {
 
 chrome.storage.onChanged.addListener(async (changes, namespace) => {
   let a = do_rule_load();
+  console.log("HELLO")
 });
 
 chrome.runtime.onStartup.addListener(() => {
