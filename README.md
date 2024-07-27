@@ -12,5 +12,8 @@ Now Includes a gui!
 
 
 
-### Note 
-thewarehousgroup seem to be removing listings now anyway so the extensions' functionality is no longer required
+## July 2024 Note.
+
+The folks over at the warehouse have now updated the website such that this filter persists between queries, meaning the extension is no longer useful.
+
+The repo is kept around for reference for Manifest V3 rules etc.
